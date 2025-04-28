@@ -13,5 +13,6 @@ public class HomeServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.getWriter().println("<h1>Welcome to RentMate!</h1>");
+        response.getWriter().println("<h1>Thank you!</h1>");
     }
 }
