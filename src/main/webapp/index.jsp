@@ -133,53 +133,150 @@
 					Products</a>
 			</div>
 
-			<div class="row g-4">
-				<!-- Category Card -->
+			<div class="row g-4 text-center">
 				<div class="col-6 col-sm-4 col-md-2">
-					<div class="category-card text-center p-2">
-						<img src="${pageContext.request.contextPath}/images/categories/cat-1.png" alt="Camera"
-							class="img-fluid category-img border">
-						<p class="category-name mt-2">Cameras</p>
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-1.png"
+							alt="Furniture" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Furniture</p>
 					</div>
 				</div>
-
 				<div class="col-6 col-sm-4 col-md-2">
-					<div class="category-card text-center p-2">
-						<img src="${pageContext.request.contextPath}/images/categories/cat-2.png" alt="Construction"
-							class="img-fluid category-img border">
-						<p class="category-name mt-2">Construction</p>
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-2.png"
+							alt="Vending Machine" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Vending Machine</p>
 					</div>
 				</div>
-
 				<div class="col-6 col-sm-4 col-md-2">
-					<div class="category-card text-center p-2">
-						<img src="${pageContext.request.contextPath}/images/categories/cat-3.png" alt="Electronics"
-							class="img-fluid category-img border">
-						<p class="category-name mt-2">Electronics</p>
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-3.png"
+							alt="Drones" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Drones</p>
 					</div>
 				</div>
-
 				<div class="col-6 col-sm-4 col-md-2">
-					<div class="category-card text-center p-2">
-						<img src="${pageContext.request.contextPath}/images/categories/cat-4.png" alt="Fashion"
-							class="img-fluid category-img border">
-						<p class="category-name mt-2">Fashion</p>
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-4.png"
+							alt="Books & Study Materials" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Medical Equipment &
+							Services</p>
 					</div>
 				</div>
-
 				<div class="col-6 col-sm-4 col-md-2">
-					<div class="category-card text-center p-2">
-						<img src="${pageContext.request.contextPath}/images/categories/cat-5.png" alt="Furniture"
-							class="img-fluid category-img border">
-						<p class="category-name mt-2">Furniture</p>
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-5.png"
+							alt="Medical Equipment" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Biking & Hiking Gears</p>
 					</div>
 				</div>
-
 				<div class="col-6 col-sm-4 col-md-2">
-					<div class="category-card text-center p-2">
-						<img src="${pageContext.request.contextPath}/images/categories/cat-6.png" alt="Tools"
-							class="img-fluid category-img border">
-						<p class="category-name mt-2">Tools</p>
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-6.png"
+							alt="Biking Gears" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Home Appliances</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2">
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-7.png"
+							alt="Home Appliances" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Automobiles</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2">
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-8.png"
+							alt="Stage Decorators" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Kids Utilities</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2">
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-9.png"
+							alt="Fashion" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Electronics & Gadgets</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2">
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-10.png"
+							alt="Furniture" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">CCTV's</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2">
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-1.png"
+							alt="Decorations" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Decorations</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2">
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-12.png"
+							alt="Baby Products" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Musical Instruments</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2">
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-13.png"
+							alt="Construction Tools" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Fitness & Sports Equipment</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2">
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-14.png"
+							alt="Electronics" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Electronics & Gadgets</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2">
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-1.png"
+							alt="Farm Equipment" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Cameras</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2">
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-16.png"
+							alt="Kitchen Items" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Machines & Tools</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2">
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-2.png"
+							alt="Cosmetics" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Cosmetics</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-4 col-md-2">
+					<div class="category-card p-2">
+						<img
+							src="${pageContext.request.contextPath}/images/categories/cat-18.png"
+							alt="Gaming Items" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Generators</p>
 					</div>
 				</div>
 			</div>
