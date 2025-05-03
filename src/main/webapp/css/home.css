@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 /*specific to homepage visuals (carousel, testimonials)*/
-
 :root {
 	--blue: #012060;
 	--orange: #f87439;
@@ -20,11 +19,11 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	font-weight: normal;
-    font-style: normal;
-    color: var(--lgrey) !important;
-    overflow-x: hidden;
-    padding-top: 100px; /* Adjust based on your header height */
-/*     font-size: 14px; */
+	font-style: normal;
+	color: var(--lgrey) !important;
+	overflow-x: hidden;
+	padding-top: 100px; /* Adjust based on your header height */
+	/*     font-size: 14px; */
 }
 
 /* ------------------------------------------------------- */
@@ -32,25 +31,25 @@ body {
 
 /* Image Styling to Match Rentit4Me Look */
 .custom-carousel-img {
-  height: 340px;
-  object-fit: cover;
-  border-radius: 10px;
-  transition: transform 0.4s ease-in-out;
+	height: 340px;
+	object-fit: cover;
+	border-radius: 10px;
+	transition: transform 0.4s ease-in-out;
 }
 
 .custom-carousel-img:hover {
-  transform: scale(1.01);
+	transform: scale(1.01);
 }
 
 /* ------------------------------------------------------- */
 
 /* Categories */
-
 .allProdBtn {
 	background-color: var(--white) !important;
-	color: --var(lgrey) !important; 
+	color: --var(lgrey) !important;
 	border-color: var(--purple) !important;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19) !important;
 }
 
 .allProdBtn:hover {
@@ -59,36 +58,86 @@ body {
 }
 
 #popular-categories .section-title {
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: var(--orange);
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: var(--orange);
 }
 
 .category-card {
-  transition: transform 0.3s ease;
-  cursor: pointer;
+	transition: transform 0.3s ease;
+	cursor: pointer;
 }
 
 .category-card:hover {
-  transform: translateY(-5px);
+	transform: translateY(-5px);
 }
 
 .category-img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-  border: 3px solid #ddd;
-  border-radius: 8px;
-  padding: 6px;
-  background-color: #fff;
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+	border: 3px solid #ddd;
+	border-radius: 8px;
+	padding: 6px;
+	background-color: #fff;
 }
 
 .category-name {
-  font-size: 0.98rem;
-  font-weight: 500;
-  color: #444;
+	font-size: 0.98rem;
+	font-weight: 500;
+	color: #444;
 }
 
 /* ------------------------------------------------------- */
 
+/* Bootstrap Accordion FAQ Section */
+.faq-section .accordion-button {
+	background-color: #e5e4e47a;
+	color: #212529;
+	font-size: 1.1rem;
+}
 
+.faq-section .accordion-button:not(.collapsed) {
+	background-color: var(--blue) !important;
+	color: #fff;
+}
+
+.faq-section .accordion-body {
+	padding: 1rem 1.25rem;
+	font-size: 0.95rem;
+	line-height: 1.7;
+}
+
+.accordion-body.bg-primary {
+	background-color: #0047ab !important;
+}
+
+.faq-section ol {
+	padding-left: 1rem;
+}
+
+/* ---------------------------------------------------- */
+.logo-row-marquee {
+    white-space: nowrap; /* Prevent images from wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden;
+    padding: 15px 0;
+    background-color: transparent;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically align items in the row */
+}
+
+.logo-row-marquee img {
+    object-fit: contain; /* Maintain aspect ratio, fit within max-height */
+}
+
+.right-to-left {
+    direction: rtl; /* For initial right-to-left arrangement */
+}
+
+.corporate-customers .container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+/* ---------------------------------------------------- */

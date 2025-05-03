@@ -40,10 +40,10 @@
 								%>
 
 								<li class="nav-item"><a class="nav-link"
-									href="${pageContext.request.contextPath}/about.html">About</a>
+									href="${pageContext.request.contextPath}/about.jsp">About</a>
 								</li>
 								<li class="nav-item"><a class="nav-link"
-									href="${pageContext.request.contextPath}/contact.html">Contact</a>
+									href="${pageContext.request.contextPath}/contact.jsp">Contact</a>
 								</li>
 							</ul>
 
