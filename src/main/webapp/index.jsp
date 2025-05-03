@@ -2,7 +2,9 @@
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-	
+
+<%@ page import="com.rentmate.model.User"%>
+
 <%@ include file="includes/header.jsp"%>
 <!----------------------------------------------------------------->
 <!-- index.jsp: Home Page Structure -->
@@ -32,10 +34,10 @@
 <!-- Custom header CSS -->
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/css/header.css">
-	
+
 <!-- Custom footer CSS -->
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/css/footer.css">	
+	href="${pageContext.request.contextPath}/css/footer.css">
 
 <!-- Page-specific CSS -->
 <link rel="stylesheet"
@@ -47,6 +49,22 @@
 
 <body>
 	<div class="container">
+
+		<%-- Show welcome message only when user is logged in --%>
+		
+		<%--
+    		User loggedInUser = (User) session.getAttribute("user");
+    		if (loggedInUser != null) {
+		--%>
+		
+		<!-- <div class="text-center my-4">
+        <h1 class="display-5 fw-bold text-primary">Welcome,loggedInUser.getName()e() %>!</h1>
+    	</div> -->
+    	
+		<%-- 
+    	}
+		--%>
+
 
 		<!-- Slider part start -->
 
@@ -619,10 +637,10 @@
 			}
 		});
 	</script>
-	
-	
+
+
 	<!-- Footer jsp -->
 	<%@ include file="includes/footer.jsp"%>
-	
+
 </body>
 </html>
