@@ -56,7 +56,7 @@ body {
 
 .signup-container {
 	max-width: 500px;
-	margin: 160px auto;
+	margin: 140px auto;
 	padding: 30px;
 	background: white;
 	border-radius: 12px;
@@ -73,22 +73,31 @@ body {
 			<!-- Show success message if registered -->
 			<%
 			String successMsg = (String) request.getAttribute("successMsg");
+			String errorMsg = (String) request.getAttribute("errorMsg");
+
 			if (successMsg != null) {
 			%>
+			<!-- Success Message and Login Button -->
 			<div class="alert alert-success text-center"><%=successMsg%></div>
 			<div class="text-center mt-2">
 				<a href="login.jsp" class="btn btn-primary">Go to Login</a>
 			</div>
 			<%
+			} else {
+			if (errorMsg != null) {
+			%>
+			<!-- Error Message -->
+			<div class="alert alert-danger text-center"><%=errorMsg%></div>
+			<%
 			}
 			%>
 
-
-			<form action="${pageContext.request.contextPath}/RegisterServlet"
+			<!-- Signup Form Only Shown When SuccessMsg is Null -->
+			<form action="${pageContext.request.contextPath}/SignupServlet"
 				method="post" onsubmit="return validateForm()">
 				<div class="mb-3">
 					<label for="fullName" class="form-label">Full Name</label> <input
-						type="text" class="form-control" id="fullName" name="full_name"
+						type="text" class="form-control" id="fullName" name="name"
 						required>
 				</div>
 
@@ -110,9 +119,13 @@ body {
 				</div>
 
 				<div class="d-grid">
-					<button type="submit" class="btn btn-success">Sign Up</button>
+					<button type="submit" class="btn text-white" style="background-color: #f87439;">Sign Up</button>
 				</div>
 			</form>
+			<%
+			} // end else
+			%>
+
 
 			<p class="text-center mt-3">
 				Already have an account? <a href="login.jsp">Login here</a>

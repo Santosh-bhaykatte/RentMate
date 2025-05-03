@@ -51,11 +51,11 @@
 	<div class="container">
 
 		<%-- Show welcome message only when user is logged in --%>
-		
+
 		<%--
     		User loggedInUser = (User) session.getAttribute("user");
     		if (loggedInUser != null) {
-		--%>
+		 
 		
 		<!-- <div class="text-center my-4">
         <h1 class="display-5 fw-bold text-primary">Welcome,loggedInUser.getName()e() %>!</h1>
@@ -165,25 +165,30 @@
 			<div class="row g-4 text-center">
 				<div class="col-6 col-sm-4 col-md-2">
 					<div class="category-card p-2">
-						<img
+						<a href="${pageContext.request.contextPath}/furniture-cat.jsp">
+							<img
 							src="${pageContext.request.contextPath}/images/categories/cat-1.png"
 							alt="Furniture" class="img-fluid border rounded p-1" />
+						</a>
 						<p class="mt-2 fw-semibold text-dark">Furniture</p>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-2">
 					<div class="category-card p-2">
-						<img
-							src="${pageContext.request.contextPath}/images/categories/cat-2.png"
-							alt="Vending Machine" class="img-fluid border rounded p-1" />
-						<p class="mt-2 fw-semibold text-dark">Vending Machine</p>
+						<a href="${pageContext.request.contextPath}/homeapp-cat.jsp">
+							<img
+							src="${pageContext.request.contextPath}/images/categories/cat-6.png"
+							alt="Home Appliances" class="img-fluid border rounded p-1" />
+						</a>
+						<p class="mt-2 fw-semibold text-dark">Home Appliances</p>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-2">
 					<div class="category-card p-2">
-						<img
+						<a href="${pageContext.request.contextPath}/drones-cat.jsp"> <img
 							src="${pageContext.request.contextPath}/images/categories/cat-3.png"
-							alt="Drones" class="img-fluid border rounded p-1" />
+							alt="Furniture" class="img-fluid border rounded p-1" />
+						</a>
 						<p class="mt-2 fw-semibold text-dark">Drones</p>
 					</div>
 				</div>
@@ -208,9 +213,9 @@
 				<div class="col-6 col-sm-4 col-md-2">
 					<div class="category-card p-2">
 						<img
-							src="${pageContext.request.contextPath}/images/categories/cat-6.png"
-							alt="Biking Gears" class="img-fluid border rounded p-1" />
-						<p class="mt-2 fw-semibold text-dark">Home Appliances</p>
+							src="${pageContext.request.contextPath}/images/categories/cat-2.png"
+							alt="Vending Machiene" class="img-fluid border rounded p-1" />
+						<p class="mt-2 fw-semibold text-dark">Vending Machiene</p>
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-2">
@@ -616,8 +621,6 @@
 		</section>
 
 		<!-- marquee section end -->
-
-
 
 
 	</div>

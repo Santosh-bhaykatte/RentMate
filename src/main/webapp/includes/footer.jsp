@@ -41,8 +41,8 @@
 			<!-- Pages -->
 			<div class="col-md-3">
 				<h5>Pages</h5>
-				<a href="#">Furniture</a>
-				<a href="#">Home Appliance</a>
+				<a href="${pageContext.request.contextPath}/furniture-cat.jsp">Furniture</a>
+				<a href="${pageContext.request.contextPath}/homeapp-cat.jsp">Home Appliance</a>
 				<a href="#">Automobiles</a>
 				<a href="#">Laptops / Computers</a>
 			</div>

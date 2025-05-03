@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+:root {
+	--blue: #012060;
+	--orange: #f87439;
+	--lpurple: #F4F2FF;
+	--purple: #6555cb;
+	--lgrey: #6e657e;
+	--white: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: var(--lgrey) !important;
+	overflow-x: hidden;
+	padding-top: 100px; /* Adjust based on your header height */
+	/*     font-size: 14px; */
+}
+
+/* -------------------------------------- */
+
+/* Furniture cat */
+
+.cat-head {
+	color: var(--blue);
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #dee2e6; /* Light grey border */
+    border-radius: 0.25rem;
+    overflow: hidden;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Make cards the same height */
+}
+
+.product-card a {
+    display: block; /* Make the link cover the image area */
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #dee2e6;
+    object-fit: contain; /* Ensure images cover the area without distortion */
+    aspect-ratio: 2.5 / 2; /* Maintain a 1:1 aspect ratio for images */
+    transition: transform 0.3s ease-in-out; /* Add transition for image hover */
+}
+
+.product-details {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Allow details to take up remaining space */
+}
+
+.product-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #012060; /* Dark text */
+    font-weight: bold;
+    transition: background-color 0.8s ease;
+}
+
+.product-title:hover {
+	color: var(--orange);
+}
+
+.product-title a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+}
+
+.product-price {
+    font-size: 0.9rem;
+    color: #6c757d; /* Grey text */
+    margin-bottom: 1rem;
+}
+
+.btn-rent {
+    background-color: #ff7f50; /* Coral color */
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+    margin-top: auto; /* Push button to the bottom */
+}
+
+.btn-rent:hover {
+	color: #fff;
+    background-color: #012060; /* Darker coral on hover */
+}
+
+/* -------------------------------------- */
+
+
+/* Categories */
+
+.allProdBtn {
+	background-color: var(--white) !important;
+	color: --var(lgrey) !important;
+	border-color: var(--purple) !important;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19) !important;
+}
+
+.allProdBtn:hover {
+	color: var(--white) !important;
+	background-color: var(--blue) !important;
+}
+
+#popular-categories .section-title {
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: var(--orange);
+}
+
+.category-card {
+	transition: transform 0.3s ease;
+	cursor: pointer;
+}
+
+.category-card:hover {
+	transform: translateY(-5px);
+}
+
+.category-img {
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+	border: 3px solid #ddd;
+	border-radius: 8px;
+	padding: 6px;
+	background-color: #fff;
+}
+
+.category-name {
+	font-size: 0.98rem;
+	font-weight: 500;
+	color: #444;
+}
+
+/* -------------------------------------- */
+
