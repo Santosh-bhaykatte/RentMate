@@ -23,4 +23,151 @@ body {
 	overflow-x: hidden;
 	padding-top: 100px; /* Adjust based on your header height */
 	/*     font-size: 14px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333; /* Default text color */
+}
+
+/* -------------------------------- */
+.contact-section {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh; /* Slightly increased min-height */
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Increased gap between boxes */
+    max-width: 960px;
+    width: 90%;
+}
+
+.contact-form-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px; /* Adjust padding as needed */
+    border-radius: 10px;
+    flex: 1 1 450px; /* Adjust base width as needed */
+    box-sizing: border-box;
+    max-height: none; /* Removed max-height to prevent scrolling */
+    overflow-y: visible; /* Ensure all content is visible */
+    margin-right: 30px;
+}
+
+.contact-form {
+    padding-top: 15px; /* Adjust top padding */
+}
+
+.contact-form h2 {
+    color: #012060;
+    margin-bottom: 25px; /* Adjust bottom margin */
+    text-align: center;
+    font-size: 1.3rem; /* Adjust font size */
+}
+
+.form-label {
+    font-weight: bold;
+    color: #012060;
+    font-size: 0.9rem; /* Adjust font size */
+    margin-bottom: 5px; /* Adjust bottom margin */
+}
+
+.form-control {
+    border-radius: 4px;
+    padding: 0.7rem; /* Adjust padding */
+    font-size: 0.9rem; /* Adjust font size */
+}
+
+.dial-code {
+    max-width: 65px; /* Adjust width */
+    margin-right: 8px; /* Adjust margin */
+    font-size: 0.9rem; /* Adjust font size */
+    padding: 0.7rem; /* Adjust padding */
+}
+
+.submit-btn {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Adjust padding */
+    border-radius: 4px;
+    font-size: 1rem; /* Adjust font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 15px; /* Adjust top margin */
+}
+
+.submit-btn:hover {
+    color: #fff;
+    background-color: #012060;
+}
+
+.contact-info-wrapper {
+    background-color: rgba(248, 120, 57, 0.8);
+    padding: 30px; /* Adjust padding as needed */
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 450px; /* Adjust base width as needed */
+    box-sizing: border-box;
+    max-height: none; /* Removed max-height to prevent scrolling */
+    overflow-y: visible; /* Ensure all content is visible */
+    margin-left: 30px;
+}
+
+.contact-info {
+	width: 80%;
+	margin: 30px auto;
+}
+
+.contact-info-box {
+	margin: 80px;
+}
+
+.contact-info h3 {
+    color: #012060;
+    margin-bottom: 30px; /* Adjust bottom margin */
+    text-align: center;
+    font-size: 2rem; /* Adjust font size */
+}
+
+.contact-info p {
+    line-height: 1.5; /* Adjust line height */
+    margin-bottom: 20px; /* Adjust bottom margin */
+    text-align: center;
+    font-size: 1rem; /* Adjust font size */
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust bottom margin */
+    font-size: 17px;
+    color: #012060;
+}
+
+.info-item i {
+    font-size: 1.3rem; /* Adjust icon size */
+    margin-right: 15px; /* Adjust right margin */
+    color: #012060;
+    width: 20px; /* Adjust icon width */
+    text-align: center;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 2rem; /* Adjust font size */
+}
+
+.contact-info a:hover {
+    color: #ddd;
 }

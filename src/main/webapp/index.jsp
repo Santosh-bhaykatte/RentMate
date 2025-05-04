@@ -337,7 +337,7 @@
 
 				<!-- Service Image -->
 				<div class="col-md-6">
-					<a href="#"> <img
+					<a href="${pageContext.request.contextPath}/listings.jsp"> <img
 						src="${pageContext.request.contextPath}/images/banners/service-brouse.png"
 						alt="Customer Listed Services" class="img-fluid rounded-4 shadow">
 					</a>

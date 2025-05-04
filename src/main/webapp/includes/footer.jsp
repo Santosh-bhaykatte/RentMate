@@ -43,8 +43,8 @@
 				<h5>Pages</h5>
 				<a href="${pageContext.request.contextPath}/furniture-cat.jsp">Furniture</a>
 				<a href="${pageContext.request.contextPath}/homeapp-cat.jsp">Home Appliance</a>
-				<a href="#">Automobiles</a>
-				<a href="#">Laptops / Computers</a>
+				<a href="${pageContext.request.contextPath}/listings.jsp">Automobiles</a>
+				<a href="${pageContext.request.contextPath}/listings.jsp">Laptops / Computers</a>
 			</div>
 
 			<!-- Support -->
