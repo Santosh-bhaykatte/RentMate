@@ -56,9 +56,9 @@
 						alt="Wooden Wardrobe" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone with Operator Phantom</a>
+							<a href="#">White Chair</a>
 						</h5>
-						<p class="product-price">&#8377;10,000 / Day</p>
+						<p class="product-price">&#8377;963/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -70,9 +70,9 @@
 						alt="Student Combo Deal" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone DJI Air 2S</a>
+							<a href="#">Round Table (Glass)</a>
 						</h5>
-						<p class="product-price">&#8377;9858 / Day</p>
+						<p class="product-price">&#8377;963/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -84,9 +84,9 @@
 						alt="White Chair" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone DJI Air 2S with Smart</a>
+							<a href="#">Wooden Bed (6.25 X 5 feet)</a>
 						</h5>
-						<p class="product-price">&#8377;5570 / Month</p>
+						<p class="product-price">&#8377;749/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -98,9 +98,9 @@
 						alt="Round Table (Glass)" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone Phantom 4 Pro</a>
+							<a href="#">Mattress (6.25 X 3 feet)</a>
 						</h5>
-						<p class="product-price">&#8377;2785 / Month</p>
+						<p class="product-price">&#8377;535/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -112,9 +112,9 @@
 						alt="Dining Table Set" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Mini 3 Drone</a>
+							<a href="#">Ford Mustang GT</a>
 						</h5>
-						<p class="product-price">&#8377;12000 / Month</p>
+						<p class="product-price">&#8377;43,200/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -126,7 +126,7 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Pulsar 220</a>
 						</h5>
 						<p class="product-price">&#8377;1100 / Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
@@ -140,9 +140,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">BMW 5 Series 530</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;20,500/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -154,7 +154,7 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Mahindra Thar (Soft Top)</a>
 						</h5>
 						<p class="product-price">&#8377;1100 / Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
@@ -168,9 +168,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">DJI RSC2 Gimbal</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;420/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -182,9 +182,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">2-person Camping Tent</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;180/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -196,9 +196,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Riding Gloves</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;117/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -210,9 +210,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">70 L Bagpack</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;125/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -224,9 +224,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Stationary Exercise Upto 100 Kg</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;2,007/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -238,9 +238,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Bench & Mini Squat Rack</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;750/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -252,9 +252,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Spin Bike</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;2,200/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -266,9 +266,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Dumbbells - Rate Per Kg</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;90/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -280,9 +280,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Yamaha PSR 550 Keyboard </a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;900/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -294,9 +294,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Rock Drum Set (7 Piece)</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;2,800/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -308,9 +308,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Grand Piano</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;34,000/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -322,9 +322,9 @@
 						alt="Living Room Sofa" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Thermal Drone</a>
+							<a href="#">Harmonium</a>
 						</h5>
-						<p class="product-price">&#8377;25000 / Day</p>
+						<p class="product-price">&#8377;4,000/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>

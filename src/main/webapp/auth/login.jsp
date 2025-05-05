@@ -67,7 +67,7 @@ body {
 
 	<div class="container login-container mt-5">
 		<div class="row justify-content-center">
-			<div class="col-md-6">
+			<div class="col-md-5">
 				<div class="card shadow rounded-4">
 					<div class="card-body p-4">
 						<h3 class="text-center mb-4">Login to RentMate</h3>
@@ -111,13 +111,7 @@ body {
 									name="password" required>
 							</div>
 
-							<div class="mb-3 form-check">
-								<input type="checkbox" class="form-check-input" id="remember"
-									name="remember"> <label class="form-check-label"
-									for="remember">Remember me</label>
-							</div>
-
-							<div class="d-grid">
+							<div class="d-grid pt-3">
 								<button type="submit" class="btn text-white"
 									style="background-color: #f87439;">Login</button>
 							</div>

@@ -57,9 +57,10 @@
 			</div>
 			<div class="row align-items-center">
 				<div class="col-12">
-					<img
+					<a href="${pageContext.request.contextPath}/listings.jsp"> <img
 						src="${pageContext.request.contextPath}/images/banners/about.avif"
 						alt="About Us Illustration" class="about-us-image">
+					</a>
 				</div>
 			</div>
 		</div>

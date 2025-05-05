@@ -53,9 +53,9 @@
 						alt="Wooden Wardrobe" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone with Operator Phantom</a>
+							<a href="#">Mist Fan</a>
 						</h5>
-						<p class="product-price">&#8377;10,000 / Day</p>
+						<p class="product-price">&#8377;1,620/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -67,9 +67,9 @@
 						alt="Student Combo Deal" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone DJI Air 2S</a>
+							<a href="#">Projector with Screen</a>
 						</h5>
-						<p class="product-price">&#8377;9858 / Day</p>
+						<p class="product-price">&#8377;1,499/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -81,9 +81,9 @@
 						alt="White Chair" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone DJI Air 2S with Smart</a>
+							<a href="#">Room Oil Heater</a>
 						</h5>
-						<p class="product-price">&#8377;5570 / Month</p>
+						<p class="product-price">&#8377;1,250/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -95,9 +95,9 @@
 						alt="Round Table (Glass)" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone Phantom 4 Pro</a>
+							<a href="#">Air Purifier & Geyser Combo</a>
 						</h5>
-						<p class="product-price">&#8377;2785 / Month</p>
+						<p class="product-price">&#8377;1,150/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -110,9 +110,9 @@
 						alt="Living Room Sofa" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Thermal Drone</a>
+							<a href="#">OTG</a>
 						</h5>
-						<p class="product-price">&#8377;25000 / Day</p>
+						<p class="product-price">&#8377;750/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -124,9 +124,9 @@
 						alt="Dining Table Set" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Mini 3 Drone</a>
+							<a href="#">Kitchen Combo Deal of 4</a>
 						</h5>
-						<p class="product-price">&#8377;12000 / Month</p>
+						<p class="product-price">&#8377;₹2,800/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -138,9 +138,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">100 Litre Deep Freezer</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;2,450/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -152,9 +152,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Induction Cooktop</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;160/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -166,9 +166,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Inverter - Single Battery</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;1,098/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -180,9 +180,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Dishwasher - 12 P</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;1,499/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -194,9 +194,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">2 Ton Split Air Conditioner</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;1,999/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -208,7 +208,7 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Refrigerator Double Door</a>
 						</h5>
 						<p class="product-price">&#8377;1100 / Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
@@ -222,9 +222,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Front Loading Washing Machine</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;1,290/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -236,9 +236,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Coolers</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;3,780/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -250,9 +250,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Television 50-55" (Inch)</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;1,580/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -264,9 +264,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Projector with Screen</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;1,499/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>

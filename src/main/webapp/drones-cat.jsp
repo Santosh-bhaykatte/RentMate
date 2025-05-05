@@ -56,7 +56,7 @@
 						<h5 class="product-title">
 							<a href="#">Drone with Operator Phantom</a>
 						</h5>
-						<p class="product-price">&#8377;10,000 / Day</p>
+						<p class="product-price">&#8377;10,000 / Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -70,7 +70,7 @@
 						<h5 class="product-title">
 							<a href="#">Drone DJI Air 2S</a>
 						</h5>
-						<p class="product-price">&#8377;9858 / Day</p>
+						<p class="product-price">&#8377;9858 / Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -113,7 +113,7 @@
 						<h5 class="product-title">
 							<a href="#">Thermal Drone</a>
 						</h5>
-						<p class="product-price">&#8377;25000 / Day</p>
+						<p class="product-price">&#8377;25000 / Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -139,9 +139,9 @@
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Drone with Operator Phantom</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;12,000/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>

@@ -17,6 +17,7 @@ public class User
 	public String getPassword() { return password; }
 	public String getPhone() { return phone; }
 
+	// Setters
 	public void setName(String name) {
 		this.name = name;
 	}

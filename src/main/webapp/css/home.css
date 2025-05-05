@@ -49,13 +49,8 @@ body {
 		rgba(0, 0, 0, 0.19) !important;
 }
 
-.allProdBtn:hover {
-	color: var(--white) !important;
-	background-color: var(--blue) !important;
-}
-
 #popular-categories .section-title {
-	font-size: 1.4rem;
+	font-size: 1.7rem;
 	font-weight: 600;
 	color: var(--orange);
 }

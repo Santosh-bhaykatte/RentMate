@@ -67,9 +67,9 @@
 						alt="Student Combo Deal" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Student Combo Deal</a>
+							<a href="#">White Chair</a>
 						</h5>
-						<p class="product-price">&#8377;1299 / Month</p>
+						<p class="product-price">&#8377;963/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -81,9 +81,9 @@
 						alt="White Chair" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">White Chair</a>
+							<a href="#">Round Table (Glass)</a>
 						</h5>
-						<p class="product-price">&#8377;982 / Month</p>
+						<p class="product-price">&#8377;963 / Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -95,9 +95,9 @@
 						alt="Round Table (Glass)" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Round Table (Glass)</a>
+							<a href="#">Double Bed With Storage</a>
 						</h5>
-						<p class="product-price">&#8377;983 / Month</p>
+						<p class="product-price">&#8377;1,658/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -110,9 +110,9 @@
 						alt="Living Room Sofa" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Living Room Sofa Set</a>
+							<a href="#">Wooden Bed (6.25 X 5 feet)</a>
 						</h5>
-						<p class="product-price">&#8377;2500 / Month</p>
+						<p class="product-price">&#8377;749/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -124,9 +124,9 @@
 						alt="Dining Table Set" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">6 Seater Dining Table Set</a>
+							<a href="#">Mattress (6.25 X 3 feet)</a>
 						</h5>
-						<p class="product-price">&#8377;1800 / Month</p>
+						<p class="product-price">&#8377;535/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -138,9 +138,9 @@
 						class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Queen Size Wooden Bed</a>
+							<a href="#">Sofa Set</a>
 						</h5>
-						<p class="product-price">&#8377;1100 / Month</p>
+						<p class="product-price">&#8377;1,566/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -152,9 +152,9 @@
 						alt="Another Dining Set" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">4 Seater Dining Table</a>
+							<a href="#">Wooden Wardrobe</a>
 						</h5>
-						<p class="product-price">&#8377;1500 / Month</p>
+						<p class="product-price">&#8377;1,294/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -167,9 +167,9 @@
 						alt="Study Table" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Ergonomic Study Table</a>
+							<a href="#">Double Bed With Storage</a>
 						</h5>
-						<p class="product-price">&#8377;750 / Month</p>
+						<p class="product-price">&#8377;1,658/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -181,9 +181,9 @@
 						alt="Office Chair" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Comfortable Office Chair</a>
+							<a href="#">King Size Bed With Mattress</a>
 						</h5>
-						<p class="product-price">&#8377;600 / Month</p>
+						<p class="product-price">&#8377;2,033/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -195,9 +195,9 @@
 						alt="Bookshelf" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Wooden Bookshelf with Shelves</a>
+							<a href="#">Weave 6 Seater Dining Set</a>
 						</h5>
-						<p class="product-price">&#8377;880 / Month</p>
+						<p class="product-price">&#8377;1,603/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
@@ -209,9 +209,9 @@
 						alt="TV Unit" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Modern TV Entertainment Unit</a>
+							<a href="#">Fontana L Shape Sofa</a>
 						</h5>
-						<p class="product-price">&#8377;1200 / Month</p>
+						<p class="product-price">&#8377;1,389/ Month</p>
 						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
