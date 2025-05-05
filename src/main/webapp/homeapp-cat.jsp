@@ -280,7 +280,7 @@
 	<section class="container my-5 pt-5" id="popular-categories">
 		<div class="d-flex justify-content-between align-items-center mb-4">
 			<h3 class="section-title">More Categories</h3>
-			<a href="#" class="btn btn-outline-primary shadow-sm allProdBtn">All
+			<a href="${pageContext.request.contextPath}/listings.jsp" class="btn btn-outline-primary shadow-sm allProdBtn">All
 				Products</a>
 		</div>
 

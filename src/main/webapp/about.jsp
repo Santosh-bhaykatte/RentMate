@@ -58,7 +58,7 @@
 			<div class="row align-items-center">
 				<div class="col-12">
 					<img
-						src="${pageContext.request.contextPath}/images/banners/about-banner.png"
+						src="${pageContext.request.contextPath}/images/banners/about.avif"
 						alt="About Us Illustration" class="about-us-image">
 				</div>
 			</div>

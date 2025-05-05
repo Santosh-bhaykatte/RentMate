@@ -31,7 +31,7 @@ body {
 
 .about-us-image {
 	width: 100%; /* Make the image responsive within its container */
-	height: auto; /* Maintain aspect ratio */
+	height: 550px !important; /* Maintain aspect ratio */
 	display: block; /* Remove any extra spacing below the image */
 }
 

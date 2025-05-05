@@ -158,7 +158,7 @@
 		<section class="container my-5" id="popular-categories">
 			<div class="d-flex justify-content-between align-items-center mb-4">
 				<h3 class="section-title">Top Rented Categories</h3>
-				<a href="#" class="btn btn-outline-primary shadow-sm allProdBtn">All
+				<a href="${pageContext.request.contextPath}/listings.jsp" class="btn shadow-sm allProdBtn">All
 					Products</a>
 			</div>
 
@@ -170,7 +170,7 @@
 							src="${pageContext.request.contextPath}/images/categories/cat-1.png"
 							alt="Furniture" class="img-fluid border rounded p-1" />
 						</a>
-						<p class="mt-2 fw-semibold text-dark">Furniture</p>
+						<p class="mt-2 fw-semibold text-dark">Furniture</p> 
 					</div>
 				</div>
 				<div class="col-6 col-sm-4 col-md-2">
