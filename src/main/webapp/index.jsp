@@ -52,19 +52,19 @@
 
 		<%-- Show welcome message only when user is logged in --%>
 
-		<%--
-    		User loggedInUser = (User) session.getAttribute("user");
-    		if (loggedInUser != null) {
-		 
-		
-		<!-- <div class="text-center my-4">
-        <h1 class="display-5 fw-bold text-primary">Welcome, loggedInUser.getName()e() %>!</h1>
-    	</div> -->
-    	
-		<%-- 
-    	}
-		--%>
-
+		<%
+		User loggedInUser = (User) session.getAttribute("user");
+		if (loggedInUser != null) {
+		%>
+		<div class="text-center my-4">
+			<h1 class="display-5 fw-bold text-primary">
+				Welcome,
+				<%=loggedInUser.getName()%>!
+			</h1>
+		</div>
+		<%
+		}
+		%>
 
 		<!-- Slider part start -->
 
@@ -159,7 +159,8 @@
 			<div class="d-flex justify-content-between align-items-center mb-4">
 				<h3 class="section-title">Top Rented Categories</h3>
 				<a href="${pageContext.request.contextPath}/listings.jsp"
-					class="btn shadow-sm allProdBtn" style="border-color: #012060; background-color: #012060; color: #fff;">All
+					class="btn shadow-sm allProdBtn"
+					style="border-color: #012060; background-color: #012060; color: #fff;">All
 					Products</a>
 			</div>
 
