@@ -59,6 +59,10 @@ body {
 .login-container {
 	padding-top: 100px;
 }
+
+.row {
+	--bs-gutter-x: 2.5rem;
+}
 </style>
 
 
@@ -67,6 +71,15 @@ body {
 
 	<div class="container login-container mt-5">
 		<div class="row justify-content-center">
+			<div class="col-md-5">
+				<div class="card shadow rounded-4">
+					<a href="${pageContext.request.contextPath}/listings.jsp"> <img
+						src="${pageContext.request.contextPath}/images/banners/about.avif"
+						alt="About Us Illustration" class="img-fluid rounded-4"
+						style="height: 355px;">
+					</a>
+				</div>
+			</div>
 			<div class="col-md-5">
 				<div class="card shadow rounded-4">
 					<div class="card-body p-4">
@@ -108,12 +121,20 @@ body {
 							</div>
 
 							<div class="mb-3">
-								<label for="password" class="form-label">Password</label> <input
-									type="password" class="form-control" id="password"
-									name="password">
+								<label for="password" class="form-label">Password</label>
+								<div class="input-group">
+									<input type="password" class="form-control" id="password"
+										name="password" aria-describedby="togglePasswordBtn">
+									<button class="btn btn-outline-secondary" type="button"
+										id="togglePasswordBtn" tabindex="-1"
+										onclick="togglePassword()">
+										<i class="fa fa-eye" id="toggleIcon"></i>
+									</button>
+								</div>
 								<div class="invalid-feedback" id="passwordError">Password
 									cannot be empty.</div>
 							</div>
+
 
 							<div class="d-grid">
 								<button type="submit" class="btn text-white"
@@ -175,8 +196,23 @@ body {
 
 			return isValid;
 		}
-	</script>
 
+		/* Password visible toggle */
+		function togglePassword() {
+			const passwordInput = document.getElementById("password");
+			const icon = document.getElementById("toggleIcon");
+
+			if (passwordInput.type === "password") {
+				passwordInput.type = "text";
+				icon.classList.remove("fa-eye");
+				icon.classList.add("fa-eye-slash");
+			} else {
+				passwordInput.type = "password";
+				icon.classList.remove("fa-eye-slash");
+				icon.classList.add("fa-eye");
+			}
+		}
+	</script>
 
 
 	<!-- Footer jsp -->

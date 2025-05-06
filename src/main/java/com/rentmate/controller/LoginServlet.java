@@ -2,15 +2,15 @@ package com.rentmate.controller;
 
 import java.io.IOException;
 
-import javax.servlet.*;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
+import jakarta.servlet.*;
+/*import jakarta.servlet.annotation.WebServlet;*/
+import jakarta.servlet.http.*;
 
 import com.rentmate.dao.UserDAO;
 import com.rentmate.model.User;
 import com.rentmate.utils.DBConnection;
 
-@WebServlet("/LoginServlet")
+/*@WebServlet("/LoginServlet")*/
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -26,10 +26,11 @@ public class LoginServlet extends HttpServlet {
 		if (user != null) {
 			HttpSession session = request.getSession();
 			session.setAttribute("user", user);
+			session.setAttribute("loginSuccess", "Logged in successfully!");
 			response.sendRedirect(request.getContextPath() + "/index.jsp");
 		} else {
 			request.setAttribute("errorMsg", "Invalid email or password");
-			RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("auth/login.jsp");
 			rd.forward(request, response);
 		}
 	}

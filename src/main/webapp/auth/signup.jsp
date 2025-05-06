@@ -80,7 +80,8 @@ body {
 			<!-- Success Message and Login Button -->
 			<div class="alert alert-success text-center"><%=successMsg%></div>
 			<div class="text-center mt-2">
-				<a href="login.jsp" class="btn btn-primary">Go to Login</a>
+				<a href="${pageContext.request.contextPath}/auth/login.jsp"
+					class="btn btn-primary">Go to Login</a>
 			</div>
 			<%
 			} else {
@@ -113,13 +114,22 @@ body {
 				</div>
 
 				<div class="mb-3">
-					<label for="password" class="form-label">Password</label> <input
-						type="password" class="form-control" id="password" name="password"
-						minlength="6" required>
+					<label for="password" class="form-label">Password</label>
+					<div class="input-group">
+						<input type="password" class="form-control" id="password"
+							name="password" aria-describedby="togglePasswordBtn"
+							minlength="6" required>
+						<button class="btn btn-outline-secondary" type="button"
+							id="togglePasswordBtn" tabindex="-1" onclick="togglePassword()">
+							<i class="fa fa-eye" id="toggleIcon"></i>
+						</button>
+					</div>
 				</div>
 
+
 				<div class="d-grid">
-					<button type="submit" class="btn text-white" style="background-color: #f87439;">Sign Up</button>
+					<button type="submit" class="btn text-white"
+						style="background-color: #f87439;">Sign Up</button>
 				</div>
 			</form>
 			<%
@@ -128,7 +138,9 @@ body {
 
 
 			<p class="text-center mt-3">
-				Already have an account? <a href="login.jsp">Login here</a>
+				Already have an account? <a
+					href="${pageContext.request.contextPath}/auth/login.jsp">Login
+					here</a>
 			</p>
 		</div>
 	</div>
@@ -151,6 +163,22 @@ body {
 				return false;
 			}
 			return true;
+		}
+
+		/* Password visible toggle */
+		function togglePassword() {
+			const passwordInput = document.getElementById("password");
+			const icon = document.getElementById("toggleIcon");
+
+			if (passwordInput.type === "password") {
+				passwordInput.type = "text";
+				icon.classList.remove("fa-eye");
+				icon.classList.add("fa-eye-slash");
+			} else {
+				passwordInput.type = "password";
+				icon.classList.remove("fa-eye-slash");
+				icon.classList.add("fa-eye");
+			}
 		}
 	</script>
 

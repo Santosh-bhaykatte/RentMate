@@ -643,6 +643,41 @@
 		});
 	</script>
 
+	<!-- Login & Logout Success Messages -->
+
+	<%
+	String loginSuccess = (String) session.getAttribute("loginSuccess");
+	String logoutSuccess = (String) session.getAttribute("logoutSuccess");
+
+	if (loginSuccess != null || logoutSuccess != null) {
+	%>
+	<div class="position-fixed top-0 start-50 translate-middle-x p-3 mt-4"
+		style="z-index: 1055;">
+		<div id="successToast"
+			class="toast show align-items-center text-bg-success border-0 shadow"
+			role="alert">
+			<div class="d-flex">
+				<div class="toast-body">
+					<%=loginSuccess != null ? loginSuccess : logoutSuccess%>
+				</div>
+				<button type="button" class="btn-close btn-close-white me-2 m-auto"
+					data-bs-dismiss="toast" aria-label="Close"></button>
+			</div>
+		</div>
+	</div>
+
+	<script>
+    setTimeout(() => {
+        const toastEl = document.getElementById('successToast');
+        if (toastEl) toastEl.classList.remove('show');
+    }, 3000);
+	</script>
+	<%
+	session.removeAttribute("loginSuccess");
+	session.removeAttribute("logoutSuccess");
+	}
+	%>
+
 
 	<!-- Footer jsp -->
 	<%@ include file="includes/footer.jsp"%>
