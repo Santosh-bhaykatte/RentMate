@@ -47,7 +47,7 @@
 							action="${pageContext.request.contextPath}/search" method="get"
 							style="max-width: 300px; width: 100%;">
 							<div class="input-group w-100">
-								<input class="form-control" type="search" name="query"
+								<input class="form-control" style="border-color: #f87439;" type="search" name="query"
 									placeholder="Search..." />
 								<button class="btn btn-outline-secondary search-btn"
 									type="submit">

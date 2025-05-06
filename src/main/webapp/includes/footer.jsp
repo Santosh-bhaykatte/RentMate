@@ -66,9 +66,12 @@
 
 		<!-- Footer bottom updated -->
 		<div class="footer-bottom mt-4">
-			<p class="mb-0">
-				Copyright 2024 - All rights reserved. |
+			<p class="mb-2">
+				Copyright 2025 - All rights reserved. |
 				A Unit Of DevGen Labs
+			</p>
+			<p class="mb-0">
+				Version - 1.0.0
 			</p>
 		</div>
 	</div>
