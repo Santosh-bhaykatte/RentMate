@@ -98,20 +98,24 @@ body {
 						%>
 
 						<!-- Login Form -->
-						<form action="LoginServlet" method="post">
+						<form action="${pageContext.request.contextPath}/LoginServlet"
+							method="post" onsubmit="return validateLoginForm()">
 							<div class="mb-3">
 								<label for="email" class="form-label">Email address</label> <input
-									type="email" class="form-control" id="email" name="email"
-									required>
+									type="email" class="form-control" id="email" name="email">
+								<div class="invalid-feedback" id="emailError">Please enter
+									a valid email address.</div>
 							</div>
 
 							<div class="mb-3">
 								<label for="password" class="form-label">Password</label> <input
 									type="password" class="form-control" id="password"
-									name="password" required>
+									name="password">
+								<div class="invalid-feedback" id="passwordError">Password
+									cannot be empty.</div>
 							</div>
 
-							<div class="d-grid pt-3">
+							<div class="d-grid">
 								<button type="submit" class="btn text-white"
 									style="background-color: #f87439;">Login</button>
 							</div>
@@ -122,6 +126,7 @@ body {
 									up here</a>
 							</div>
 						</form>
+
 					</div>
 				</div>
 			</div>
@@ -135,20 +140,43 @@ body {
 
 	<!-- Basic JS validation -->
 	<script>
-		function validateForm() {
-			const name = document.getElementById("fullName").value.trim();
-			const phone = document.getElementById("phone").value.trim();
-			if (!/^[0-9]{10}$/.test(phone)) {
-				alert("Enter a valid 10-digit phone number");
-				return false;
+		function validateLoginForm() {
+			let isValid = true;
+
+			const emailField = document.getElementById("email");
+			const passwordField = document.getElementById("password");
+			const emailError = document.getElementById("emailError");
+			const passwordError = document.getElementById("passwordError");
+
+			const email = emailField.value.trim();
+			const password = passwordField.value.trim();
+
+			const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+			// Email Validation
+			if (!emailPattern.test(email)) {
+				emailField.classList.add("is-invalid");
+				emailError.style.display = "block";
+				isValid = false;
+			} else {
+				emailField.classList.remove("is-invalid");
+				emailError.style.display = "none";
 			}
-			if (name === "") {
-				alert("Name cannot be empty");
-				return false;
+
+			// Password Validation
+			if (password === "") {
+				passwordField.classList.add("is-invalid");
+				passwordError.style.display = "block";
+				isValid = false;
+			} else {
+				passwordField.classList.remove("is-invalid");
+				passwordError.style.display = "none";
 			}
-			return true;
+
+			return isValid;
 		}
 	</script>
+
 
 
 	<!-- Footer jsp -->

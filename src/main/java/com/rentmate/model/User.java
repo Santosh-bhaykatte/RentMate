@@ -3,6 +3,10 @@ package com.rentmate.model;
 public class User 
 {
 	private String name, email, password, phone;
+	
+	public User() {
+		
+	}
 
 	public User(String name, String email, String password, String phone) {
 		this.name = name;
