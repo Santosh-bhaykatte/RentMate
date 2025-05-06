@@ -76,7 +76,7 @@ body {
 					<a href="${pageContext.request.contextPath}/listings.jsp"> <img
 						src="${pageContext.request.contextPath}/images/banners/about.avif"
 						alt="About Us Illustration" class="img-fluid rounded-4"
-						style="height: 355px;">
+						style="height: 370px;">
 					</a>
 				</div>
 			</div>
@@ -137,7 +137,7 @@ body {
 
 
 							<div class="d-grid">
-								<button type="submit" class="btn text-white"
+								<button type="submit" class="btn text-white mt-3"
 									style="background-color: #f87439;">Login</button>
 							</div>
 

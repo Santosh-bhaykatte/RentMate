@@ -57,7 +57,7 @@
 		if (loggedInUser != null) {
 		%>
 		<div class="text-center my-4">
-			<h1 class="display-5 fw-bold text-primary">
+			<h1 class="display-6 fw-bold" style="color: #f87439;">
 				Welcome,
 				<%=loggedInUser.getName()%>!
 			</h1>
@@ -155,7 +155,7 @@
 
 		<!-- Catrgories start -->
 
-		<section class="container my-5" id="popular-categories">
+		<section class="container my-5 pt-2" id="popular-categories">
 			<div class="d-flex justify-content-between align-items-center mb-4">
 				<h3 class="section-title">Top Rented Categories</h3>
 				<a href="${pageContext.request.contextPath}/listings.jsp"
