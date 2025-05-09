@@ -51,281 +51,303 @@
 		<div class="row g-4">
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/f-2.png"
 						alt="Wooden Wardrobe" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">White Chair</a>
+							<a href="details?itemId=${item.id}">White Chair</a>
 						</h5>
 						<p class="product-price">&#8377;963/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/f-3.png"
 						alt="Student Combo Deal" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Round Table (Glass)</a>
+							<a href="details?itemId=${item.id}">Round Table (Glass)</a>
 						</h5>
 						<p class="product-price">&#8377;963/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/f-5.jpeg"
 						alt="White Chair" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Wooden Bed (6.25 X 5 feet)</a>
+							<a href="details?itemId=${item.id}">Wooden Bed (6.25 X 5
+								feet)</a>
 						</h5>
 						<p class="product-price">&#8377;749/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/f-6.jpeg"
 						alt="Round Table (Glass)" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Mattress (6.25 X 3 feet)</a>
+							<a href="details?itemId=${item.id}">Mattress (6.25 X 3 feet)</a>
 						</h5>
 						<p class="product-price">&#8377;535/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/automobile-1.jpg"
 						alt="Dining Table Set" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Ford Mustang GT</a>
+							<a href="details?itemId=${item.id}">Ford Mustang GT</a>
 						</h5>
 						<p class="product-price">&#8377;43,200/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/automobile-2.jpeg"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Pulsar 220</a>
+							<a href="details?itemId=${item.id}">Pulsar 220</a>
 						</h5>
 						<p class="product-price">&#8377;1100 / Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/automobile-3.jpeg"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">BMW 5 Series 530</a>
+							<a href="details?itemId=${item.id}">BMW 5 Series 530</a>
 						</h5>
 						<p class="product-price">&#8377;20,500/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/automobile-4.png"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Mahindra Thar (Soft Top)</a>
+							<a href="details?itemId=${item.id}">Mahindra Thar (Soft Top)</a>
 						</h5>
 						<p class="product-price">&#8377;1100 / Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/Biking-1.jpeg"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">DJI RSC2 Gimbal</a>
+							<a href="details?itemId=${item.id}">DJI RSC2 Gimbal</a>
 						</h5>
 						<p class="product-price">&#8377;420/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/Biking-2.jpeg"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">2-person Camping Tent</a>
+							<a href="details?itemId=${item.id}">2-person Camping Tent</a>
 						</h5>
 						<p class="product-price">&#8377;180/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/Biking-3.jpeg"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Riding Gloves</a>
+							<a href="details?itemId=${item.id}">Riding Gloves</a>
 						</h5>
 						<p class="product-price">&#8377;117/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/Biking-4.jpeg"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">70 L Bagpack</a>
+							<a href="details?itemId=${item.id}">70 L Bagpack</a>
 						</h5>
 						<p class="product-price">&#8377;125/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/fitness-1.jpeg"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Stationary Exercise Upto 100 Kg</a>
+							<a href="details?itemId=${item.id}">Stationary Exercise Upto
+								100 Kg</a>
 						</h5>
 						<p class="product-price">&#8377;2,007/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/fitness-2.jpg"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Bench & Mini Squat Rack</a>
+							<a href="details?itemId=${item.id}">Bench & Mini Squat Rack</a>
 						</h5>
 						<p class="product-price">&#8377;750/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/fitness-3.jpeg"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Spin Bike</a>
+							<a href="details?itemId=${item.id}">Spin Bike</a>
 						</h5>
 						<p class="product-price">&#8377;2,200/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/fitness-4.jpeg"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Dumbbells - Rate Per Kg</a>
+							<a href="details?itemId=${item.id}">Dumbbells - Rate Per Kg</a>
 						</h5>
 						<p class="product-price">&#8377;90/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/Musical-1.png"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Yamaha PSR 550 Keyboard </a>
+							<a href="details?itemId=${item.id}">Yamaha PSR 550 Keyboard </a>
 						</h5>
 						<p class="product-price">&#8377;900/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/Musical-2.jpeg"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Rock Drum Set (7 Piece)</a>
+							<a href="details?itemId=${item.id}">Rock Drum Set (7 Piece)</a>
 						</h5>
 						<p class="product-price">&#8377;2,800/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/Musical-3.png"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Grand Piano</a>
+							<a href="details?itemId=${item.id}">Grand Piano</a>
 						</h5>
 						<p class="product-price">&#8377;34,000/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/products/Musical-4.jpeg"
 						alt="Living Room Sofa" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Harmonium</a>
+							<a href="details?itemId=${item.id}">Harmonium</a>
 						</h5>
 						<p class="product-price">&#8377;4,000/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}"><button
+								class="btn btn-rent">Take On Rent</button></a>
 					</div>
 				</div>
 			</div>

@@ -49,100 +49,110 @@
 		<div class="row g-4">
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/drone-category/drone-6.jpeg"
 						alt="Wooden Wardrobe" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone with Operator Phantom</a>
+							<a href="details?itemId=${item.id}">Drone with Operator
+								Phantom</a>
 						</h5>
 						<p class="product-price">&#8377;10,000 / Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/drone-category/drone-2.jpeg"
 						alt="Student Combo Deal" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone DJI Air 2S</a>
+							<a href="details?itemId=${item.id}">Drone DJI Air 2S</a>
 						</h5>
 						<p class="product-price">&#8377;9858 / Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/drone-category/drone-3.jpeg"
 						alt="White Chair" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone DJI Air 2S with Smart</a>
+							<a href="details?itemId=${item.id}">Drone DJI Air 2S with
+								Smart</a>
 						</h5>
 						<p class="product-price">&#8377;5570 / Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/drone-category/drone-4.jpg"
 						alt="Round Table (Glass)" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone Phantom 4 Pro</a>
+							<a href="details?itemId=${item.id}">Drone Phantom 4 Pro</a>
 						</h5>
 						<p class="product-price">&#8377;2785 / Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/drone-category/drone-5.jpeg"
 						alt="Living Room Sofa" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Thermal Drone</a>
+							<a href="details?itemId=${item.id}">Thermal Drone</a>
 						</h5>
 						<p class="product-price">&#8377;25000 / Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/drone-category/drone-1.jpeg"
 						alt="Dining Table Set" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Mini 3 Drone</a>
+							<a href="details?itemId=${item.id}">Mini 3 Drone</a>
 						</h5>
 						<p class="product-price">&#8377;12000 / Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/drone-category/drone-7.jpeg"
 						class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="#">Drone with Operator Phantom</a>
+							<a href="details?itemId=${item.id}">Drone with Operator
+								Phantom</a>
 						</h5>
 						<p class="product-price">&#8377;12,000/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
@@ -156,7 +166,8 @@
 	<section class="container my-5 pt-5" id="popular-categories">
 		<div class="d-flex justify-content-between align-items-center mb-4">
 			<h3 class="section-title">More Categories</h3>
-			<a href="${pageContext.request.contextPath}/listings.jsp" class="btn btn-outline-primary shadow-sm allProdBtn">All
+			<a href="${pageContext.request.contextPath}/listings.jsp"
+				class="btn btn-outline-primary shadow-sm allProdBtn">All
 				Products</a>
 		</div>
 

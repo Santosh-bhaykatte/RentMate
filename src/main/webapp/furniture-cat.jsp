@@ -48,171 +48,185 @@
 		<div class="row g-4">
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/furniture-category/f-1.jpg"
 						alt="Wooden Wardrobe" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Wooden wardrobe</a>
+							<a href="details?itemId=${item.id}">Wooden wardrobe</a>
 						</h5>
 						<p class="product-price">&#8377;538 / Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/furniture-category/f-2.png"
 						alt="Student Combo Deal" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">White Chair</a>
+							<a href="details?itemId=${item.id}">White Chair</a>
 						</h5>
 						<p class="product-price">&#8377;963/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/furniture-category/f-3.png"
 						alt="White Chair" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Round Table (Glass)</a>
+							<a href="details?itemId=${item.id}">Round Table (Glass)</a>
 						</h5>
 						<p class="product-price">&#8377;963 / Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/furniture-category/f-9.jpeg"
 						alt="Round Table (Glass)" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Double Bed With Storage</a>
+							<a href="details?itemId=${item.id}">Double Bed With Storage</a>
 						</h5>
 						<p class="product-price">&#8377;1,658/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/furniture-category/f-5.jpeg"
 						alt="Living Room Sofa" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Wooden Bed (6.25 X 5 feet)</a>
+							<a href="details?itemId=${item.id}">Wooden Bed (6.25 X 5
+								feet)</a>
 						</h5>
 						<p class="product-price">&#8377;749/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/furniture-category/f-6.jpeg"
 						alt="Dining Table Set" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Mattress (6.25 X 3 feet)</a>
+							<a href="details?itemId=${item.id}">Mattress (6.25 X 3 feet)</a>
 						</h5>
 						<p class="product-price">&#8377;535/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/furniture-category/f-7.jpg"
 						class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Sofa Set</a>
+							<a href="details?itemId=${item.id}">Sofa Set</a>
 						</h5>
 						<p class="product-price">&#8377;1,566/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/furniture-category/f-8.jpg"
 						alt="Another Dining Set" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Wooden Wardrobe</a>
+							<a href="details?itemId=${item.id}">Wooden Wardrobe</a>
 						</h5>
 						<p class="product-price">&#8377;1,294/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/furniture-category/f-9.jpeg"
 						alt="Study Table" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Double Bed With Storage</a>
+							<a href="details?itemId=${item.id}">Double Bed With Storage</a>
 						</h5>
 						<p class="product-price">&#8377;1,658/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/furniture-category/f-10.jpeg"
 						alt="Office Chair" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">King Size Bed With Mattress</a>
+							<a href="details?itemId=${item.id}">King Size Bed With
+								Mattress</a>
 						</h5>
 						<p class="product-price">&#8377;2,033/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/furniture-category/f-11.jpg"
 						alt="Bookshelf" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Weave 6 Seater Dining Set</a>
+							<a href="details?itemId=${item.id}">Weave 6 Seater Dining Set</a>
 						</h5>
 						<p class="product-price">&#8377;1,603/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="product-card">
-					<a href="#"><img
+					<a href="details?itemId=${item.id}"><img
 						src="${pageContext.request.contextPath}/images/furniture-category/f-12.jpeg"
 						alt="TV Unit" class="product-image"></a>
 					<div class="product-details">
 						<h5 class="product-title">
-							<a href="#">Fontana L Shape Sofa</a>
+							<a href="details?itemId=${item.id}">Fontana L Shape Sofa</a>
 						</h5>
 						<p class="product-price">&#8377;1,389/ Month</p>
-						<a href="#"><button class="btn btn-rent">Take On Rent</button></a>
+						<a href="details?itemId=${item.id}" class="btn btn-rent">Take
+							On Rent</a>
 					</div>
 				</div>
 			</div>
@@ -225,7 +239,8 @@
 	<section class="container my-5 pt-5" id="popular-categories">
 		<div class="d-flex justify-content-between align-items-center mb-4">
 			<h3 class="section-title">More Categories</h3>
-			<a href="${pageContext.request.contextPath}/listings.jsp" class="btn btn-outline-primary shadow-sm allProdBtn">All
+			<a href="${pageContext.request.contextPath}/listings.jsp"
+				class="btn btn-outline-primary shadow-sm allProdBtn">All
 				Products</a>
 		</div>
 

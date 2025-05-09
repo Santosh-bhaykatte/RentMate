@@ -13,6 +13,7 @@
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
 
+	<!-- Login servlet mapping -->
 	<servlet>
 		<servlet-name>LoginServlet</servlet-name>
 		<servlet-class>com.rentmate.controller.LoginServlet</servlet-class>
@@ -23,6 +24,7 @@
 		<url-pattern>/LoginServlet</url-pattern>
 	</servlet-mapping>
 	
+	<!-- Signup servlet mapping -->
 	<servlet>
 		<servlet-name>SignupServlet</servlet-name>
 		<servlet-class>com.rentmate.controller.SignupServlet</servlet-class>
