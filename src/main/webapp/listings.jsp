@@ -57,7 +57,7 @@
 			List<Item> itemList = (List<Item>) request.getAttribute("itemList");
 			if (itemList != null) {
 				for (Item item : itemList) {
-					if (item.getId() == 7 || item.getId() == 8) { // show only 2 demo items
+					if (item.getId() == 5 || item.getId() == 6) { // show only 2 demo items
 			%>
 			<div class="col-md-3">
 				<div class="product-card">
@@ -92,13 +92,13 @@
 			<div class="col-md-3">
 				<div class="product-card">
 					<a href="details?itemId=${item.id}"><img
-						src="${pageContext.request.contextPath}/images/products/f-2.png"
+						src="${pageContext.request.contextPath}/images/products/f-5.jpeg"
 						alt="White Chair" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="details?itemId=${item.id}">White Chair</a>
+							<a href="details?itemId=${item.id}">Wooden Bed (6.25 X 5 feet)</a>
 						</h5>
-						<p class="product-price">&#8377;963/ Month</p>
+						<p class="product-price">&#8377;749/ Month</p>
 						<a href="details?itemId=${item.id}"><button
 								class="btn btn-rent">Take On Rent</button></a>
 					</div>
@@ -107,13 +107,13 @@
 			<div class="col-md-3">
 				<div class="product-card">
 					<a href="details?itemId=${item.id}"><img
-						src="${pageContext.request.contextPath}/images/products/f-3.png"
+						src="${pageContext.request.contextPath}/images/products/f-6.jpeg"
 						alt="Round Table (Glass)" class="product-image"></a>
 					<div class="product-details" style="text-align: center;">
 						<h5 class="product-title">
-							<a href="details?itemId=${item.id}">Round Table (Glass)</a>
+							<a href="details?itemId=${item.id}">Mattress (6.25 X 3 feet)</a>
 						</h5>
-						<p class="product-price">&#8377;963/ Month</p>
+						<p class="product-price">&#8377;535/ Month</p>
 						<a href="details?itemId=${item.id}"><button
 								class="btn btn-rent">Take On Rent</button></a>
 					</div>
