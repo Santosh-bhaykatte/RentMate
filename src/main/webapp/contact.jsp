@@ -111,7 +111,7 @@
 							<div class="info-item">
 								<i class="fas fa-map-marker-alt"></i> <span>150 Udyog
 									Vihar Phase 1, <br> Udyog Vihar, Sector 20, <br>
-									Dange Chowk, Pune, India 411033
+									Tathwade, Pune, India 411033
 								</span>
 							</div>
 							<div class="info-item">

@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+:root {
+	--blue: #012060;
+	--orange: #f87439;
+	--lpurple: #F4F2FF;
+	--purple: #6555cb;
+	--lgrey: #6e657e;
+	--white: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: var(--lgrey) !important;
+	overflow-x: hidden;
+	padding-top: 100px; /* Adjust based on your header height */
+	/*     font-size: 14px; */
+}
+
+.d-container {
+	background-color: #fff !important;
+	border-radius: 12px !important;
+	box-shadow: 0 0 29px rgba(0, 0, 0, 0.09) !important;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	padding-top: 80px !important;
+	padding-bottom: 30px !important;
+}
+
+h2, h4 {
+	color: #333;
+}
+
+.img-fluid {
+	border-radius: 10px;
+	box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+}
+
+.price-tag {
+	color: #f87439;
+	font-weight: bold;
+}
+
+label {
+	font-weight: 500;
+}
+
+input[type="date"], input[type="text"] {
+	border-radius: 8px;
+	font-size: 16px;
+}
+
+.btn-success {
+	width: 100%;
+	background-color: #f87439 !important;
+	border-color: #f87439 !important;
+	padding: 12px;
+	font-size: 16px;
+	border-radius: 8px;
+	transition: all 0.5s !important;
+}
+
+.btn-success:hover {
+	background-color: #012060 !important;
+	border-color: #012060 !important;
+
+}
+
+.form-section {
+	padding-top: 20px;
+}

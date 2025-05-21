@@ -158,7 +158,7 @@
 		<section class="container my-5 pt-2" id="popular-categories">
 			<div class="d-flex justify-content-between align-items-center mb-4">
 				<h3 class="section-title">Top Rented Categories</h3>
-				<a href="${pageContext.request.contextPath}/listings.jsp"
+				<a href="<%=request.getContextPath()%>/listings"
 					class="btn shadow-sm allProdBtn"
 					style="border-color: #012060; background-color: #012060; color: #fff;">All
 					Products</a>

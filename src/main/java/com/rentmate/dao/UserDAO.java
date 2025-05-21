@@ -57,6 +57,7 @@ public class UserDAO {
 
 			if (rs.next()) {
 				user = new User();
+				user.setId(rs.getInt("id")); // <--- Set the retrieved ID here
 				user.setName(rs.getString("name"));
 				user.setEmail(rs.getString("email"));
 				user.setPhone(rs.getString("phone"));

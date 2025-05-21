@@ -13,38 +13,49 @@ import java.io.IOException;
 import com.rentmate.dao.ItemDAO;
 import com.rentmate.model.Item;
 
-/**
- * Servlet implementation class DetailsServlet
- */
 @WebServlet("/details")
 public class DetailsServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // Check session
-        HttpSession session = request.getSession(false);
-        if (session == null || session.getAttribute("user") == null) {
-            response.sendRedirect("auth/login.jsp");
-            return;
-        }
 
-        // Get itemId from request
-        String itemIdParam = request.getParameter("itemId");
-        if (itemIdParam == null) {
-            response.sendRedirect(request.getContextPath() + "/index.jsp"); // fallback
-            return;
-        }
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// 1. Check login
+		HttpSession session = request.getSession(false);
+		if (session == null || session.getAttribute("user") == null) {
+			response.sendRedirect("auth/login.jsp");
+			return;
+		}
 
-        int itemId = Integer.parseInt(itemIdParam);
+		// 2. Validate itemId
+		String itemIdParam = request.getParameter("itemId");
+		if (itemIdParam == null || itemIdParam.trim().isEmpty()) {
+			response.sendRedirect(request.getContextPath() + "/index.jsp");
+			return;
+		}
+		/* System.out.println("Received itemId: " + itemIdParam); */
 
-        // Fetch item details from DB using DAO
-        ItemDAO itemDao = new ItemDAO();
-        Item item = itemDao.getItemById(itemId);
-        request.setAttribute("item", item);
 
-        // Forward to details.jsp
-        RequestDispatcher dispatcher = request.getRequestDispatcher("details.jsp");
-        dispatcher.forward(request, response);
-    }
+		int itemId;
+		try {
+			itemId = Integer.parseInt(itemIdParam);
+		} catch (NumberFormatException e) {
+			response.sendRedirect(request.getContextPath() + "/index.jsp");
+			return;
+		}
+
+		// 3. Fetch item from DAO
+		ItemDAO itemDao = new ItemDAO();
+		Item item = itemDao.getItemById(itemId);
+		
+
+		if (item == null) {
+			response.sendRedirect(request.getContextPath() + "/index.jsp");
+			return;
+		}
+
+		// 4. Set attribute & forward
+		request.setAttribute("item", item);
+		RequestDispatcher dispatcher = request.getRequestDispatcher("details.jsp");
+		dispatcher.forward(request, response);
+	}
 }
-

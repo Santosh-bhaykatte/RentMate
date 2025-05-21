@@ -13,7 +13,7 @@
 					alt="Logo" style="width: 120px; margin-bottom: 15px;">
 				<p>
 					<strong>Address:</strong><br> Plot Number 150, Udyog Vihar<br>
-					Phase 1, Sector 20<br> Pune – 411033
+					Phase 1, Sector 20<br>Tathawade, Pune – 411033
 				</p>
 				<p>
 					<strong>Telephone:</strong> +91-7301921110

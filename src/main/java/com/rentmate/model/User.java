@@ -2,6 +2,7 @@ package com.rentmate.model;
 
 public class User 
 {
+	private int id;		// ----
 	private String name, email, password, phone;
 	
 	public User() {
@@ -16,12 +17,19 @@ public class User
 	}
 
 	// Getters
+	public int getId() {		//----
+        return id;
+    }
 	public String getName() { return name; }
 	public String getEmail() { return email; }
 	public String getPassword() { return password; }
 	public String getPhone() { return phone; }
 
 	// Setters
+	public void setId(int id) {		// ----
+        this.id = id;
+    }
+	
 	public void setName(String name) {
 		this.name = name;
 	}
