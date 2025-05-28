@@ -1,3 +1,109 @@
 @charset "UTF-8";
 
-/* Booking confirmation, cart UI, Razorpay/payment view */
+/* Booking confirmation, Razorpay/payment view */
+
+
+:root {
+	--blue: #012060;
+	--orange: #f87439;
+	--lpurple: #F4F2FF;
+	--purple: #6555cb;
+	--lgrey: #6e657e;
+	--white: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #f4f7f6;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.payment-container {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 200px;
+	padding-bottom: 50px;
+}
+
+.payment-card {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	padding: 40px;
+	text-align: center;
+	max-width: 500px;
+	width: 100%;
+}
+
+.payment-card h2 {
+	color: #333;
+	margin-bottom: 25px;
+	font-weight: 600;
+}
+
+.payment-details {
+	margin-bottom: 30px;
+	font-size: 1.1em;
+	color: #555;
+}
+
+.payment-details p {
+	margin-bottom: 10px;
+}
+
+.payment-details strong {
+	color: #007bff;
+}
+
+.btn-razorpay {
+	background-color: #008CBA; /* Razorpay blue */
+	color: white;
+	padding: 12px 25px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.1em;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.btn-razorpay:hover {
+	background-color: #007bbd;
+}
+
+.loading-message {
+	margin-top: 20px;
+	color: #666;
+}
+
+.error-message {
+	color: #dc3545;
+	font-weight: 500;
+}
+
+.btn-back {
+	background-color: #6c757d;
+	color: white;
+	padding: 8px 20px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 15px;
+	transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+	background-color: #5a6268;
+	color: white;
+	text-decoration: none;
+}
